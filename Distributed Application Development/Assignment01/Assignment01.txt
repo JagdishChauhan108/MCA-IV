@@ -1,0 +1,34 @@
+
+1.	Create client and server socket programs to enable communication so that client 
+	can get results of the following operations performed by the server.
+
+	a.  Average of two numbers
+	b.  Maximum of three numbers
+	c.  Generate nth Fibonacci number
+	d.  Generate nth prime number
+
+============================================================================================================
+
+2.	Write a socket program to do the following. The user enters a five-digit number from the client side. 
+	The server will return the original number and sum of the digits. 
+	Apprpriate message should be displayed on the client side.
+
+============================================================================================================
+
+
+3.	Write a socket program to calculate area and perimeter of a rectangle. 
+	The client will input proper parameters. 
+	The server will send results with proper messages, which should be displayed on client side.
+
+============================================================================================================
+
+4.	Write a simple web server that recognizes only the GET request. When a client connects to 
+	 the server and sends a command, such as GET filename HTTP/1.0, then return a header HTTP/1.1 200 OK, 
+	 followed by a blank line and all lines in the file. If the file does not exist, return 
+	 404 Not Found instead.]
+
+============================================================================================================
+
+5.	write a chat server and client program. The chat server accepts connections from clients. 
+	Whenever one of the clients sends a chat message, it is displayed for all other clients to see.
+	Use a protocol with three commands : LOGIN name, CHAT message and LOGOUT.
